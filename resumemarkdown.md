@@ -22,11 +22,27 @@ bachelor of science in music industry
 - researched upcoming films and TV shows to identify specific elements for pitching to industry professionals 
 
 #### venice music -- remote
-*sync intern*          *january 2024 - may 2024*
+*sync intern*                 *january 2024 - may 2024*
 
 - conducted target pitches of music selections to prospective clients, tailoring proposals to align with their unique requirements and preferences
 - assisted in licensing and clearance procedures, ensuring compliance with legal and contractual obligations for all music placements
 - oversaw metadata and catalog maintenance, guaranteeing the precision and currency of information for all music assets within the company's database
+
+#### zync music -- remote
+*creative marketing and A&R intern*           *august 2023 - november 2023*
+
+- integrated 50+ songs into library systems by creating descriptive tags for incoming tracks, ensuring accurate categorization and improving library management efficiency
+- evaluated and provided constructive feedback on incoming music submissions, contributing to a comprehensive and quality-assured selection process
+- revised and maintained documentation for artists' split sheets, assuring accurate and up-to-date records to foster transparent and fair collaboration within the music industry
+
+#### scorekeepers music  -- remote
+*summer intern*    *june 2023 - september 2023*
+
+- executed client research and outreach strategies across corporate, university, and television sectors, fostering partnerships
+and driving business growth
+- managed and organized extensive music catalogs for enhanced accessibility and collaboration with artists within
+ScoreKeepers Music by leveraging DISCO
+- browsed and selected tracks that perfectly matched client requirements, contributing to the success of music placements in various media projects 
 
 #### SOTA DTLA -- remote
 *intern*          *april 2023 - june 2023*
