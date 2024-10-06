@@ -1,28 +1,33 @@
-# moodify: *an app that creates a playlist based on your mood or activity*
+# beatbus: *a mobile performance stage app that travels to college campuses*
 
 ### our team
-- ashley sanon
+- alexander theodorakos
 - dayoung lee
-- rayn adams
-- van nguyen
+- charlie loigman
+- dan flavin 
 
 ### tools used
 - figma
 
 ### introduction
-moodify, an app designed to transform the way you experience music by creating custom playlists that match your mood, activity, and personal tastes. leveraging data from streaming platforms, moodify tailors playlists to seamlessly fit any situation - whether you're working out, relaxing, or exploring new genres.
+a mobile music venue designed to bring live performances directly to college campuses and local communities. fully equipped for live shows, the bus offers a unique concert experience that's accessible, exciting and free for all attendees. 
 
 ### problems 
-existing music recommendation systems lack the ability to deliver curated and customizable playlists tailored to individual moods and curious preferences (spotify research)
+concerts have been increasingly difficult to attend due to high ticket prices, making them unaffordable for many fans. beyond the cost, issues like inconvenient locations and scheduling conflicts often make it challenging for people to see their favorite artists live. these barriers leave fans frustrated and can limit access to live music experiences. 
+
+**the evidence**
+
+*insert section from presentation*
 
 ### objective
-our objective was to create an application to integrate exploration, emotional regulation, productivity enhancement, and entertainment value into your listening playlist by implementing the spotify profile and using a comprehensive database.
 
-### our process
-**how users experience moodify**
 
-*insert flow from presentation*
+### our product overview
+**what is the beat bus?**
+- the bus will travel to college campuses and put on free shows for the community, being funded by sponsors that have a chance to use the bus as advertising
 
+**the user experience**
+- the user will be able to find out about beat bus shows through our app. after attending, users will be able to rate each show and even vote for who they want to see next
 
 
 ### solution
