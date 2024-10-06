@@ -1,12 +1,12 @@
 # DaYoung Lee
-### education
+## education
 **drexel university - westphal college of media arts & design**                 philadelphia, PA
 
 bachelor of science in music industry        
 
 - *minors: user experience & interaction design, business administration* 
 
-### experience
+## experience
 #### chorus -- remote
 *artist relations research intern*          *july 2024 - present*
 
