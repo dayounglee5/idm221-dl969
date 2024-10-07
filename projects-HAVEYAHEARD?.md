@@ -1,44 +1,72 @@
-# moodify: *an app that creates a playlist based on your mood or activity*
+# moodify: *a curation of niche songs for fans to display playlists after concert ticket purchases*
 
 ### our team
-- ashley sanon
-- dayoung lee
-- rayn adams
-- van nguyen
+- raagavi
+- alex
+- kellie
+- dayoung
+- simone
 
 ### tools used
 - figma
+- canva
 
 ### introduction
-moodify, an app designed to transform the way you experience music by creating custom playlists that match your mood, activity, and personal tastes. leveraging data from streaming platforms, moodify tailors playlists to seamlessly fit any situation - whether you're working out, relaxing, or exploring new genres.
+**have ya heard?**, a music discover app designed for superfans who crave deeper connections with their favorite artists. featuring curated playlists filled with niche trakcs, the app highlights songs that only the most dedicated listeners know. by collaborating with platforms like **ticketmaster** and **live nation**, **have ya heard?** offers personalized music recommendations after users buy concert tickets, creating an immerseive experience that extends beyond the live show. 
 
 ### problems 
-existing music recommendation systems lack the ability to deliver curated and customizable playlists tailored to individual moods and curious preferences (spotify research)
+for many fans, the excitement of a concert is often limited to the event itself, with no platform to extend the experience or discover new music related to the artist. concert-goers miss opportunities to explore hidden gems and niche tracks that could enhance their appreciation for the artist. 
 
 ### objective
 our objective was to create an application to integrate exploration, emotional regulation, productivity enhancement, and entertainment value into your listening playlist by implementing the spotify profile and using a comprehensive database.
 
+### our users
+#### user 1
+- avid music lover and listener
+- enjoys going to concerts even when she doesn't know the artist that well
+- still wants to be able to know the songs and sing along
+- not a super fan
+
+#### user 2
+- is a super fan
+- loves going to concerts and singing along to all the songs
+- passionate about music and always finding new music
+- will spend a lot of money on concert tickets, especially for an artist she is a superfan of
+
+
 ### our process
-**how users experience moodify**
+**<u>our goals**</u>
 
-*insert flow from presentation*
+**goal 1**
+- solving the issue of access to niche songs
 
+**goal 2**
+- implementing it into spotify's existing system and connecting it to concert ticket purchases
+
+**goal 3**
+- utilizing user information to compile lists of distinctive songs
+
+**<u>our business concept</u>**
+
+**the start**
+- taking data from the superfans of that artist and finding what songs they frequently listened to
+
+**the development**
+- creating a playlist called **have ya heard?** filled with those "niche" songs that only the superfans know
+- collaborating with platforms like **ticketmaster** and **livenation** to display these playlists after user buys tickets
 
 
 ### solution
 #### <u>limitations</u>
-**mood subjectivity**
-- moods are interpreted differently whereas one song can evoke different moods/feelings in multiple subjects
+**dependence on partnerships**
+- the app's integration with platforms like **ticketmaster** and **live nation** is essential for delivering personalized concert-related recommendations. however, if these partnerships can't be secured or maintained, it may limit the app's ability to enhance the concert experience as intended
 
-**data quality**
-- more users are needed to have a better end result
+**niche audience appeal**
+- while superfans are dedicated, they represent a smaller segment of the general music-listening audience. this could impact the app's ability to scale and attract a braod user base, limiting its reach and potential for growth
 
-**limited catalog**
-- if the app's library is limited, users may receive repetitive or irrelevant recommendations
+**competition with mainstream streaming services**
+- major streaming platforms offer extensive music libraries and personalized playlists. competing with these well-established services for user attention may be challenging, especially if they already fulfill some of the app's niche discover features
 
-**backend development**
-
-*insert picture from presentation*
 
 
 ### takeaways
