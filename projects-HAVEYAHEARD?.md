@@ -1,4 +1,4 @@
-# moodify: *a curation of niche songs for fans to display playlists after concert ticket purchases*
+# have ya heard?: *a curation of niche songs for fans to display playlists after concert ticket purchases*
 
 ### our team
 - raagavi
@@ -67,22 +67,21 @@ our objective was to create an application to integrate exploration, emotional r
 **competition with mainstream streaming services**
 - major streaming platforms offer extensive music libraries and personalized playlists. competing with these well-established services for user attention may be challenging, especially if they already fulfill some of the app's niche discover features
 
-
+### our prototype
+*insert prototype*
 
 ### takeaways
 #### <u>future applications</u>
-**dsp data extension**
-- would allow the app to leverage streaming data for more personalized and dynamic playlist curation
-- integrating with dsps like spotify, apple music, or amazon music, this application could access user listening data
+**artist-generated content**
+- collaborating with artists to create exclusive content for superfans, such as personal playlists, commentary on rare tracks, or behind-the-scenes stories, could enhance the app's apeal
+- would provide superfans that unique insight into their favorite artists and deepen their connection
 
-**building community**
-- create a vibrant community of music lovers who share their experiences, discover new music, and connect with each other based on their moods and activities
-- whether that is through discussion forums or collaborative playlists, users would be able to create this sense of belonging amongst people of like-minded interests
+**social features for fan communities**
+- building out social features, such as fan forums and group playlists, could create a more interactive community
+- users could discuss their favorite hidden tracks, share rare finds, or even co-create playlists with friends or other superfans
 
-**record label collaboration**
-- would enhance its content offerings, providing a unique experience for users, and create marketing opportunities that would benefit both the app and the labels
+**concert and event notifications**
+- by collaborating with other ticketing agencies, users are able to get those personalized notifications about upcoming concerts, tailored to the user's favorite artists and genres
 
 
-### my own takeaways
-this was a project in partnership with the **measure of music conference**. we had two days to create an idea to pitch and compose a presentation displaying what data we used and how we used it. being my first time participating in this conference, it felt daunting because i was not confident in implementing the data and create something from that. i enjoyed working with my team, and hopefully this is something that can be developed into something more!
 

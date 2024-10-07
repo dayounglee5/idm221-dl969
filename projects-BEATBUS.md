@@ -29,37 +29,9 @@ concerts have been increasingly difficult to attend due to high ticket prices, m
 **the user experience**
 - the user will be able to find out about beat bus shows through our app. after attending, users will be able to rate each show and even vote for who they want to see next
 
-
-### solution
-#### <u>limitations</u>
-**mood subjectivity**
-- moods are interpreted differently whereas one song can evoke different moods/feelings in multiple subjects
-
-**data quality**
-- more users are needed to have a better end result
-
-**limited catalog**
-- if the app's library is limited, users may receive repetitive or irrelevant recommendations
-
-**backend development**
-
-*insert picture from presentation*
-
-
 ### takeaways
-#### <u>future applications</u>
-**dsp data extension**
-- would allow the app to leverage streaming data for more personalized and dynamic playlist curation
-- integrating with dsps like spotify, apple music, or amazon music, this application could access user listening data
-
-**building community**
-- create a vibrant community of music lovers who share their experiences, discover new music, and connect with each other based on their moods and activities
-- whether that is through discussion forums or collaborative playlists, users would be able to create this sense of belonging amongst people of like-minded interests
-
-**record label collaboration**
-- would enhance its content offerings, providing a unique experience for users, and create marketing opportunities that would benefit both the app and the labels
+this application has a lot of risks, but it comes with a lot of opportunity for live music and a way for college students to go to affordable concerts. it has the ability in fostering a unique sense of community among college students by providing a share space for music lovers to connect, engage, and enjoy live performances together. 
 
 
-### my own takeaways
-this was a project in partnership with the **measure of music conference**. we had two days to create an idea to pitch and compose a presentation displaying what data we used and how we used it. being my first time participating in this conference, it felt daunting because i was not confident in implementing the data and create something from that. i enjoyed working with my team, and hopefully this is something that can be developed into something more!
+
 
