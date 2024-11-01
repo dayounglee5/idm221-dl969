@@ -7,6 +7,15 @@ bachelor of science in music industry
 - *minors: user experience & interaction design, business administration* 
 
 ## experience
+
+#### iconoclast -- remote
+*catalog development intern* *october 2024-present*
+
+- perform in-depth research using Songview to verify song publishing data and organize detailed artist discographies
+- organize and update master spreadsheets with precise track information, including songwriting shares and release details
+- coordinate track uploads and curated playlists on DISCO, ensuring comprehensive metadata, including songwriters,
+publishers, BPMs, and release dates
+
 #### chorus -- remote
 *artist relations research intern*          *july 2024 - present*
 
