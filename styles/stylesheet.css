@@ -31,19 +31,48 @@ html{
     background-color: #FFFFFF;
 
 }
-
+header {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    background-color: #4D7EA8;
+    color: #28262C;
+    padding: 30px;
+    text-align: left;
+}
 h1, h2{
     font-family: "Nunito Sans", sans-serif;
     color: #4D7EA8;
+    font-size: 24px;
 }
 
 h3, h4 {
     font-family: "Nunito Sans", sans-serif;
     color:#28262C;
+    font-size: 20px;
 }
 
 ul, p, li {
     font-family: "Arimo", sans-serif;
     color: #28262C;
-        
+    font-size: 14px;
+}
+
+/*
+.footer {
+    background-color: #646F4B;
+    color: #28262C;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+*/
+
+.image-container{
+    position: relative;
+}
+img{
+    position: absolute;
+    right: 0;
 }
