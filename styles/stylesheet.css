@@ -62,11 +62,11 @@ h1, h2{
     color: #4D7EA8;
     font-size: 36px;
     font-weight: 400;
-
 }
 
 b {
     font-weight: 700;
+    font-family: "Arimo", sans-serif;
 }
 
 h3, h4 {
