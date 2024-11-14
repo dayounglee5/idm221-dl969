@@ -52,6 +52,12 @@ b {
     font-weight: 700;
     font-family: "Inter";
 }
+
+u{
+    font-family: "Inter";
+    color: #28262C;
+    font-size: 20px;
+}
 h3, h4 {
     font-family: "Inter";
     color:#28262C;
@@ -107,4 +113,35 @@ img{
 }
 .resumepage p{
     font-size:14px;
+}
+
+.TargetAudiencePicture{
+    width:383px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.MiaHarrisonRectangle{
+    width: 500px;
+    padding:26px;
+    line-height: 170%;
+    background-color: #7E85C7;
+    font-size: 20px;
+    border-radius: 28px;
+    display: block;
+    margin: auto;
+}
+
+.MiaHarrisonRectangle h4{
+    font-size: 40px;
+    margin-top:1px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.MiaHarrisonRectangle p{
+    font-size: 30px;
+    text-align: left;
+    color:#FFFFFF;
 }
