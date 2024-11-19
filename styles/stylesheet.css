@@ -102,6 +102,39 @@ nav ul li a {
     transform:rotate(-45deg);
 }
 
+footer{
+    background-color: #4D7EA8;
+    padding: 25px 0;
+}
+
+.footer-content{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: left;
+}
+
+footer .footer-content p{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Inter";
+    line-height: 1;
+    margin: 0;
+}
+
+footer .footer-content a{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: "Inter";
+}
+footer .footer-content h3 {
+    color: #FFFFFF;
+    font-family: "PublicSans";
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0; 
+    line-height: 1;
+}
 :link {
     font-family: "Inter";
     color: #28262C;
@@ -116,7 +149,9 @@ h1, h2{
     color: #4D7EA8;
     font-size: 50px;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 1;
+    margin: 0;
+    padding: 10px;
 }
 b {
     font-weight: 700;
@@ -137,9 +172,13 @@ h3, h4 {
 }
 
 .homepage p {
-    font-size: 12px;
+    color: #28262C;
+    font-size: 30px;
     font-family: "Inter";
-    line-height: 1rem;
+    line-height: 110%;
+    width: 700px;
+    padding: 10px;
+      
 }
 .homepage h3{
     color:#4D7EA8;
@@ -184,7 +223,10 @@ h3, h4 {
 }
 
 .image-container{
-    position: relative;
+    position: absolute;
+    top: 0;
+    left:700px;
+    padding: 20px;
 }
 
 .resumepage h1, h2{
