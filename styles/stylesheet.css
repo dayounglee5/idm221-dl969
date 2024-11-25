@@ -13,36 +13,47 @@
 
 html{
     background-color: #FFFFFF;
+    margin: 0;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
-body{
-    padding: 16px;
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
 }
 
 header {
-    padding: 1rem;
+    padding: 2rem;
     position: relative;
 }
 
 header label {
     cursor: pointer;
-    height: 1.25rem;
+    height: 2rem;
     position: fixed;
-    right: 1rem;
-    top: 1rem;
-    width: 1.625rem;
+    right: 2rem;
+    top: 2rem;
+    width: 2.5rem;
     z-index: 1001;
 }
 
 header label span {
     background-color: #4D7EA8;
-    border-radius: 2px;
+    border-radius: 3px;
     display: block;
-    height: 4px;
+    height: 6px;
     position: absolute;
     width: 100%;
     transform-origin: left;
@@ -53,11 +64,11 @@ header label span:nth-child(1) {
 }
 
 header label span:nth-child(2) {
-    top: 0.5rem;
+    top: 0.75rem;
 }
 
 header label span:nth-child(3) {
-    top: 1rem;
+    top: 1.5rem;
 }
 
 nav {
@@ -83,7 +94,7 @@ nav ul li{
 nav ul li a {
     color: #28262C;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .nav-toggle:checked ~ nav{
@@ -102,38 +113,27 @@ nav ul li a {
     transform:rotate(-45deg);
 }
 
-footer{
+.footer{
     background-color: #4D7EA8;
-    padding: 25px 0;
-}
-
-.footer-content{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 25px;
+    color: #ffffff;
     text-align: left;
+    padding: 3rem;
+    padding-bottom: 3rem;
+    position: sticky;
+    width: 100%;
 }
 
-footer .footer-content p{
-    color: #FFFFFF;
-    font-size: 30px;
-    font-family: "Inter";
-    line-height: 1;
-    margin: 0;
+.footer p{
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1rem;
 }
 
-footer .footer-content a{
-    color: #FFFFFF;
-    font-size: 35px;
-    font-family: "Inter";
-}
-footer .footer-content h3 {
-    color: #FFFFFF;
-    font-family: "PublicSans";
-    font-size: 20px;
-    font-weight: 700;
-    padding: 0; 
-    line-height: 1;
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1rem;
 }
 :link {
     font-family: "Inter";
@@ -144,15 +144,6 @@ footer .footer-content h3 {
     color: #4D7EA8;
 }
 
-h1, h2{
-    font-family: "PublicSans";
-    color: #4D7EA8;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 1;
-    margin: 0;
-    padding: 10px;
-}
 b {
     font-weight: 700;
     font-family: "Inter";
@@ -171,19 +162,40 @@ h3, h4 {
     line-height: 1.2rem;
 }
 
-.homepage p {
+.hihomepage {
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.dayounghomepage{
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 15px;
+    padding: 5px;
+}
+.introhomepage{
+    line-height: 110%;
     color: #28262C;
     font-size: 30px;
     font-family: "Inter";
-    line-height: 110%;
     width: 700px;
     padding: 10px;
-      
 }
 .homepage h3{
     color:#4D7EA8;
     font-size: 20px;
     font-family: "PublicSans";
+    line-height: 120%;
+    margin-top: 35px;
+    padding: 10px;
 }
 
 .btn-link{
@@ -224,7 +236,7 @@ h3, h4 {
 
 .image-container{
     position: absolute;
-    top: 0;
+    top: 80px;
     left:700px;
     padding: 20px;
 }
@@ -271,3 +283,65 @@ h3, h4 {
     text-align: left;
     color:#FFFFFF;
 }
+
+.about-me h1{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 55px;
+    font-family: "PublicSans";
+    color: #4D7EA8;
+}
+
+.about-me h2{
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    font-size: 40px;
+    color:#28262C;
+    margin-top: 10px;
+}
+
+.about-me p{
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    color:#28262C;
+}
+
+.about-me-content{
+    padding: 2rem;
+}
+
+.body-content {
+    padding: 2rem;
+}
+.goodreadsmockup-img {
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+.moodifymockup-img {
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.myprojects h1{
+    text-align: center;
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 55px;
+    padding: 50px;
+    margin: 0;
+}
+
+.myprojects h3 {
+    text-align: left;
+    font-family: "PublicSans";
+    color: #28262C;
+    font-size: 35px;
+    padding: 50px;
+}
+

@@ -9,7 +9,10 @@
 <link rel="myprojects" href="myprojects.html">
 <link rel="resume" href="resume.html">
 </head>
-<body>
+<body class="myprojects">
+    <a href="index.html" class="logo">
+        <img src="media/images/logo.png" alt="homepagelogo" width="60">
+    </a>
     <header>
         <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
         <label for="nav-toggle" class="nav-toggle-label">
@@ -19,16 +22,22 @@
         </label>
         <nav>
             <ul>
-                <li>about me!</li>
-                    <a href="aboutme.html"></a>
-                <li>resume!</li>
-                    <a href="resume.html"></a>
-                <li>my projects!</li>
-                    <a href="myprojects.html"></a>
+                <li><a href="aboutme.html">about me!</a></li>
+                <li><a href="resume.html">resume!</a></li>
+                <li><a href="myprojects.html">my projects!</a></li>
             </ul>
         </nav>
     </header>
     <h1>my projects</h1>
+    <div class="project-container">
+        <h3>goodreads redesign</h3>
+        <img src="media/images/GoodreadsMockup.png" class="goodreadsmockup-img"alt="goodreadsmockup" width="850">
+        <h3>moodify</h3>
+        <img src="media/images/MockupMoodify.png" class="moodifymockup-img" alt="moodifymockup" width="850">
+    </div>
+    
+
+
     <footer class ="footer">
         <div class="footer-content">
             <h3>contact me!</h3>
