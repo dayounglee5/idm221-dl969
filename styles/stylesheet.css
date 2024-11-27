@@ -87,7 +87,7 @@ nav ul{
     padding: 4rem;
 }
 
-nav ul li{
+nav ul, nav li{
     margin-bottom: 1rem;
 }
 
@@ -145,7 +145,7 @@ nav ul li a {
 }
 
 b {
-    font-weight: 700;
+    font-weight: 600;
     font-family: "Inter";
 }
 
@@ -181,7 +181,7 @@ h3, h4 {
     margin-top: 15px;
     padding: 5px;
 }
-.introhomepage{
+.introhomepage {
     line-height: 110%;
     color: #28262C;
     font-size: 30px;
@@ -211,14 +211,6 @@ h3, h4 {
     font-size: 25px;
 }
 
-.resumepage ul, p, li {
-    font-family: "Inter";
-    color: #28262C;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-}
-
 .about-me-image {
     width: 500px;
     height: auto;
@@ -226,12 +218,13 @@ h3, h4 {
   margin: auto;
 }
 
-.resumepage p + ul li{
+.resume-content p,.resume-content ul, .resume-content li{
     font-family: "Inter";
     color: #28262C;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 120%;
 }
 
 .image-container{
@@ -241,18 +234,113 @@ h3, h4 {
     padding: 20px;
 }
 
-.resumepage h1, h2{
+.resume-content h1{
     text-align: center;
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 110%;
+    padding: 20px;
     margin: 0;
-
 }
+
+.resume-content h2{
+    text-align: center;
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 20px;
+    margin: 0;
+}
+.resume-content{
+    padding: 2rem;
+}
+
 .resumepage h4{
-    font-size: 16px;
-}
-.resumepage p{
-    font-size:14px;
+    font-size: 15px;
+    color: #28262C;
+    font-family: "Inter";
+    line-height: 120%;
+    font-weight: 400;
 }
 
+.minor{
+    color: #28262C;
+    font-family: "Inter";
+    line-height: 120%;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.chorus ,.sony ,.venice, .zync ,.scorekeepers,.sota{
+    margin-top: 1.5rem;;
+}
+
+.moodify-content{
+    padding: 2rem;
+}
+.moodify h1{
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 110%;
+    margin-top: 40px;
+}
+
+.moodify h3{
+    font-family: "Inter";
+    color: #28262C;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.moodify-content ul, .moodify-content li, .moodify-content p{
+    font-family: "Inter";
+    color: #28262C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.goodreads-content{
+    padding: 2rem;
+}
+
+.goodreadsbold{
+    font-weight: 600;
+    font-family: "Inter";
+    color:#28262C;
+    font-size: 15px;
+}
+.goodreads h1{
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 40px;
+}
+.goodreads h3{
+    font-family: "Inter";
+    color: #28262C;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 200%;
+    font-weight: 600;
+}
+.goodreads-content ul, .goodreads-content li, .goodreads-content p{
+    font-family: "Inter";
+    color: #28262C;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+}
 .TargetAudiencePicture{
     width:383px;
     height: auto;
@@ -291,23 +379,37 @@ h3, h4 {
     font-size: 55px;
     font-family: "PublicSans";
     color: #4D7EA8;
+    line-height: 110%;
 }
 
 .about-me h2{
     text-align: left;
+    font-family: "Inter";
     margin: 0;
     padding: 10px;
     font-size: 40px;
     color:#28262C;
     margin-top: 10px;
+    line-height: 110%;
 }
 
 .about-me p{
     text-align: left;
     margin: 0;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: "Inter";
     color:#28262C;
+    line-height: 120%;
+}
+
+.about-me-content ul, .about-me-content li{
+    font-family: "Inter";
+    color: #28262C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
 }
 
 .about-me-content{
@@ -320,12 +422,17 @@ h3, h4 {
 .goodreadsmockup-img {
     display: block;
     margin: auto;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #4D7EA8;
+    border-radius: 50px;
 }
+
 .moodifymockup-img {
     display: block;
     margin: auto;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #4D7EA8;
+    border-radius: 50px;
 }
 
 .myprojects h1{
@@ -344,4 +451,5 @@ h3, h4 {
     font-size: 35px;
     padding: 50px;
 }
+
 
