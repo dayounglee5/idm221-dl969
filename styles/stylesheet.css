@@ -118,6 +118,13 @@ nav ul li a {
     transform:rotate(-45deg);
 }
 
+a{
+    font-family: "Inter";
+    color: #4D7EA8;
+    font-size: 15px;
+    line-height: 120%;
+}
+
 .footer{
     background-color: #4D7EA8;
     color: #ffffff;
@@ -314,11 +321,12 @@ h3, h4 {
 .moodify-content{
     padding: 2rem;
 }
+
 .moodify h1{
     font-family: "PublicSans";
     color: #4D7EA8;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 110%;
     margin-top: 40px;
 }
@@ -327,9 +335,8 @@ h3, h4 {
     font-family: "Inter";
     color: #28262C;
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 200%;
-    font-weight: 600;
 }
 
 .moodify-content ul, .moodify-content li, .moodify-content p{
@@ -355,7 +362,7 @@ h3, h4 {
     font-family: "PublicSans";
     color: #4D7EA8;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 120%;
     margin-top: 40px;
 }
@@ -363,9 +370,8 @@ h3, h4 {
     font-family: "Inter";
     color: #28262C;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 200%;
-    font-weight: 600;
 }
 .goodreads-content ul, .goodreads-content li, .goodreads-content p{
     font-family: "Inter";
@@ -375,34 +381,19 @@ h3, h4 {
     line-height: 120%;
 }
 .TargetAudiencePicture{
-    width:383px;
+    width: 900px;
     height: auto;
     display: block;
     margin: auto;
 }
 
-.MiaHarrisonRectangle{
-    width: 500px;
-    padding:26px;
-    line-height: 170%;
-    background-color: #7E85C7;
-    font-size: 20px;
-    border-radius: 28px;
+.GoodreadsLowFi1, .GoodreadsLowFi2 {
+    width: 900px;
+    height: auto;
     display: block;
     margin: auto;
-}
-
-.MiaHarrisonRectangle h4{
-    font-size: 40px;
-    margin-top:1px;
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.MiaHarrisonRectangle p{
-    font-size: 30px;
-    text-align: left;
-    color:#FFFFFF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .about-me h1{
@@ -453,6 +444,10 @@ h3, h4 {
     padding: 2rem;
 }
 
+.myprojects {
+    padding: 2rem;
+}
+
 .currentprojectpicture {
     display: block;
     margin: auto;
@@ -462,10 +457,10 @@ h3, h4 {
     border-radius: 50px;
     filter: blur(7px);
 }
+
 .goodreadsmockup-img {
     display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     border: 3.5px solid #4D7EA8;
     border-radius: 50px;
     margin-top: 1rem;
@@ -473,8 +468,7 @@ h3, h4 {
 
 .moodifymockup-img {
     display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     border: 3.5px solid #4D7EA8;
     border-radius: 50px;
     margin-top: 1rem;
@@ -485,17 +479,79 @@ h3, h4 {
     font-family: "PublicSans";
     color: #4D7EA8;
     font-size: 55px;
-    padding: 50px;
     margin: 0;
+    line-height: 120%;
 }
 
 .myprojects h3 {
     text-align: left;
     font-family: "PublicSans";
     color: #28262C;
-    font-size: 35px;
-    padding: 50px;
-    margin-bottom: -1.5rem;
+    font-size: 25px;
+    padding: 1rem;
+    margin:0;
+    font-weight: 400;
 }
 
+.myprojects h2{
+    text-align: left;
+    font-family: "PublicSans";
+    color: #28262C;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 120%;
+    padding: 1rem;
+    margin: 0;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+.haveyaheardmockup-img {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: 3.5px solid #4D7EA8;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+.haveyaheard-content{
+    padding: 2rem;
+}
+
+.haveyaheard h1{
+    text-align: left;
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 50px;
+    margin: 0;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.haveyaheard h3{
+    text-align: left;
+    font-family: "Inter";
+    color: #28262C;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 120%;
+}
+
+.haveyaheard h2{
+    text-align: left;
+    font-family: "Inter";
+    color: #28262C;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+}
+
+.haveyaheard ul, .haveyaheard li, .haveyaheard p{
+    font-family: "Inter";
+    color: #28262C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+}
 
