@@ -171,14 +171,24 @@ a{
 }
 
 b {
-    font-weight: 600;
+    font-weight: 500;
     font-family: "Inter";
+    font-size: 18px;
+    line-height: 120%;
 }
 
 u{
     font-family: "Inter";
     color: #28262C;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+i{
+    font-family: "Inter";
+    color: #28262C;
+    font-size: 18px;
+    line-height: 110%;
 }
 
 h3, h4 {
@@ -198,7 +208,7 @@ h3, h4 {
     padding: 5px;
 }
 
-.dayounghomepage{
+.dayounghomepage {
     font-family: "PublicSans";
     color: #4D7EA8;
     font-size: 50px;
@@ -206,6 +216,13 @@ h3, h4 {
     line-height: 1;
     margin-top: 15px;
     padding: 5px;
+}
+
+.dayoungbold{
+    font-weight: 600;
+    font-family: "Inter";
+    font-size: 50px;
+    color: #4D7EA8;
 }
 .body-content .introhomepage {
     color: #28262C;
@@ -225,29 +242,27 @@ h3, h4 {
 
 .btn-link{
     display: inline-block;
-    padding: 15px;
+    padding: 1rem 1.5rem;
     background-color: #4D7EA8;
-    border-radius:30px;
+    border-radius:40px;
     text-align: center;
     cursor: pointer;
-    border: none;
     text-decoration: none;
     color:#FFFFFF;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 1.5rem;
 }
 
 .myprojectsbtn-link{
     display: inline-block;
-    padding: 15px;
+    padding: 1rem 1.5rem;
     background-color: #4D7EA8;
-    border-radius:30px;
+    border-radius:40px;
     text-align: center;
     cursor: pointer;
-    border: none;
     text-decoration: none;
     color:#FFFFFF;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 1.5rem;
 }
 
@@ -263,10 +278,18 @@ h3, h4 {
     color: #28262C;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 120%;
 }
-
+.resume-content .dates{
+    font-family: "Inter";
+    color: #28262C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    font-style: italic;
+}
 .image-container{
     position: absolute;
     top: 80px;
@@ -300,11 +323,19 @@ h3, h4 {
 }
 
 .resumepage h4{
-    font-size: 15px;
+    font-size: 20px;
     color: #28262C;
     font-family: "Inter";
     line-height: 120%;
     font-weight: 400;
+}
+
+.resume-bold{
+    font-size: 20px;
+    color: #28262C;
+    font-family: "Inter";
+    line-height: 120%;
+    font-weight: 600;
 }
 
 .minor{
@@ -335,7 +366,7 @@ h3, h4 {
     font-family: "Inter";
     color: #28262C;
     font-size: 23px;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 200%;
 }
 
@@ -370,7 +401,7 @@ h3, h4 {
     font-family: "Inter";
     color: #28262C;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 200%;
 }
 .goodreads-content ul, .goodreads-content li, .goodreads-content p{
@@ -438,6 +469,13 @@ h3, h4 {
 
 .about-me-content{
     padding: 2rem;
+}
+
+.about-me-bold{
+    font-weight: 600;
+    font-family: "PublicSans";
+    color:#28262C;
+    font-size: 40px;
 }
 
 .body-content {
@@ -532,9 +570,9 @@ h3, h4 {
     text-align: left;
     font-family: "Inter";
     color: #28262C;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 120%;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 200%;
 }
 
 .haveyaheard h2{
