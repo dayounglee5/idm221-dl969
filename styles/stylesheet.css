@@ -28,13 +28,13 @@ html{
     z-index: 1000;
 }
 .down-arrow{
-    font-size: 100px;
+    font-size: 70px;
     text-align: center;
-    line-height: 120%;
+    line-height: 90%;
     color: #28262C;
 }
 .logo img {
-    width: 80px;
+    width: 60px;
     height: auto;
     cursor: pointer;
 }
@@ -94,12 +94,14 @@ nav ul{
 
 nav ul, nav li{
     margin-bottom: 1rem;
+    line-height: 120%;
 }
 
 nav ul li a {
     color: #28262C;
     text-decoration: none;
     font-size: 30px;
+    line-height: 120%;
 }
 
 .nav-toggle:checked ~ nav{
@@ -129,25 +131,31 @@ a{
     background-color: #4D7EA8;
     color: #ffffff;
     text-align: left;
-    padding: 3rem;
-    padding-bottom: 3rem;
+    padding: 1.2rem;
     position: sticky;
     width: 100%;
 }
 
 .footer .contact-me {
-    font-size: 25px;
-    line-height: 120%;
+    font-size: 20px;
     font-weight: 600;
     font-family: "PublicSans";
     color: #FFFFFF;
+    line-height: 100%;
 
+}
+
+.footer .contact-me-links{
+    line-height: 120%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 15px;
 }
 
 .footer .contact-me-links a:link, .footer .contact-me-links a:visited{
     color: #ffffff;
-    font-size: 15px;
-    line-height: 120%;
+    font-size: 18px;
+    line-height: 150%;
     font-family: "Inter";
     display: block;
     font-weight: 400;
@@ -174,7 +182,7 @@ b {
     font-weight: 500;
     font-family: "Inter";
     font-size: 18px;
-    line-height: 120%;
+    line-height: 150%;
 }
 
 u{
@@ -200,10 +208,9 @@ h3, h4 {
 
 .hihomepage {
     font-family: "PublicSans";
-    color: #4D7EA8;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 1;
+    color: #28262C;
+    font-size: 33px;
+    font-weight: 600;
     margin-top: 30px;
     padding: 5px;
 }
@@ -211,66 +218,70 @@ h3, h4 {
 .dayounghomepage {
     font-family: "PublicSans";
     color: #4D7EA8;
-    font-size: 50px;
+    font-size:33px;
     font-weight: 400;
     line-height: 1;
-    margin-top: 15px;
+    padding: 5px;
+}
+.dah-young{
+    font-family: "PublicSans";
+    color: #28262C;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
     padding: 5px;
 }
 
 .dayoungbold{
     font-weight: 600;
-    font-family: "Inter";
-    font-size: 50px;
+    font-family: "PublicSans";
+    font-size: 32px;
     color: #4D7EA8;
 }
+
 .body-content .introhomepage {
     color: #28262C;
-    font-size: 30px;
+    font-size: 18px;
     font-family: "Inter";
-    width: 700px;
-    padding: 10px;
+    width: 350px;
+    padding: 0.3rem;
 }
 .homepage h3{
     color:#4D7EA8;
     font-size: 20px;
     font-family: "PublicSans";
-    line-height: 120%;
-    margin-top: 35px;
+    line-height: 110%;
+    margin-top: 30px;
     padding: 10px;
 }
 
 .btn-link{
     display: inline-block;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1rem;
     background-color: #4D7EA8;
     border-radius:40px;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
     color:#FFFFFF;
-    font-size: 30px;
-    margin-top: 1.5rem;
+    font-size: 16px;
+    margin-top: 0.5rem;
 }
 
 .myprojectsbtn-link{
-    display: inline-block;
-    padding: 1rem 1.5rem;
-    background-color: #4D7EA8;
-    border-radius:40px;
-    text-align: center;
     cursor: pointer;
-    text-decoration: none;
-    color:#FFFFFF;
-    font-size: 30px;
-    margin-top: 1.5rem;
+    text-decoration: underline;
+    color:#28262C;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    padding:0.5rem
 }
 
 .about-me-image {
-    width: 500px;
+    width: 300px;
     height: auto;
-  display: block;
-  margin: auto;
+    display: block;
+    margin: auto;
 }
 
 .resume-content p,.resume-content ul, .resume-content li{
@@ -289,12 +300,6 @@ h3, h4 {
     font-size: 15px;
     line-height: 120%;
     font-style: italic;
-}
-.image-container{
-    position: absolute;
-    top: 80px;
-    left:700px;
-    padding: 20px;
 }
 
 .resume-content h1{
@@ -350,14 +355,14 @@ h3, h4 {
 }
 
 .moodify-content{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .moodify h1{
     font-family: "PublicSans";
     color: #4D7EA8;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
     line-height: 110%;
     margin-top: 40px;
 }
@@ -366,8 +371,8 @@ h3, h4 {
     font-family: "Inter";
     color: #28262C;
     font-size: 23px;
-    font-weight: 800;
-    line-height: 200%;
+    font-weight: 700;
+    line-height: 150%;
 }
 
 .moodify-content ul, .moodify-content li, .moodify-content p{
@@ -375,12 +380,21 @@ h3, h4 {
     color: #28262C;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 120%;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.moodifywireframes{
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .goodreads-content{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .goodreadsbold{
@@ -392,46 +406,50 @@ h3, h4 {
 .goodreads h1{
     font-family: "PublicSans";
     color: #4D7EA8;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 120%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 110%;
     margin-top: 40px;
 }
 .goodreads h3{
     font-family: "Inter";
     color: #28262C;
-    font-size: 25px;
-    font-weight: 800;
-    line-height: 200%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
 }
 .goodreads-content ul, .goodreads-content li, .goodreads-content p{
     font-family: "Inter";
     color: #28262C;
+    font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 120%;
+    font-size: 18px;
+    line-height: 150%;
 }
+
 .TargetAudiencePicture{
-    width: 900px;
-    height: auto;
     display: block;
-    margin: auto;
+    width: 350px;
+    height: auto;
+    margin-left: -0.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .GoodreadsLowFi1, .GoodreadsLowFi2 {
-    width: 900px;
+    width: 350px;
     height: auto;
     display: block;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-left: -0.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .about-me h1{
     text-align: center;
     margin: 0;
     padding: 20px;
-    font-size: 55px;
+    font-size: 40px;
     font-family: "PublicSans";
     color: #4D7EA8;
     line-height: 110%;
@@ -442,20 +460,20 @@ h3, h4 {
     font-family: "Inter";
     margin: 0;
     padding: 10px;
-    font-size: 40px;
+    font-size: 30px;
     color:#28262C;
     margin-top: 10px;
     line-height: 110%;
 }
 
-.about-me p{
+.about-me-content p{
     text-align: left;
     margin: 0;
     padding: 10px;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Inter";
     color:#28262C;
-    line-height: 120%;
+    line-height: 150%;
 }
 
 .about-me-content ul, .about-me-content li{
@@ -463,27 +481,27 @@ h3, h4 {
     color: #28262C;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 120%;
+    font-size: 18px;
+    line-height: 150%;
 }
 
 .about-me-content{
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 .about-me-bold{
     font-weight: 600;
     font-family: "PublicSans";
     color:#28262C;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .body-content {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .myprojects {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .currentprojectpicture {
@@ -491,32 +509,36 @@ h3, h4 {
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    border: 3.5px solid #4D7EA8;
-    border-radius: 50px;
-    filter: blur(7px);
+    border: 2px solid #4D7EA8;
+    border-radius: 40px;
+    filter: blur(4px);
 }
 
 .goodreadsmockup-img {
     display: block;
-    margin-bottom: 3rem;
-    border: 3.5px solid #4D7EA8;
-    border-radius: 50px;
-    margin-top: 1rem;
+    margin-bottom:1rem;
+    border: 2px solid #4D7EA8;
+    border-radius: 40px;
+    margin-top: 0.5rem;
 }
 
 .moodifymockup-img {
     display: block;
-    margin-bottom: 3rem;
-    border: 3.5px solid #4D7EA8;
-    border-radius: 50px;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #4D7EA8;
+    border-radius: 40px;
+    margin-top: 0.5rem;
+}
+
+.myprojects-content {
+    padding:1rem;
 }
 
 .myprojects h1{
     text-align: center;
     font-family: "PublicSans";
     color: #4D7EA8;
-    font-size: 55px;
+    font-size: 30px;
     margin: 0;
     line-height: 120%;
 }
@@ -525,8 +547,7 @@ h3, h4 {
     text-align: left;
     font-family: "PublicSans";
     color: #28262C;
-    font-size: 25px;
-    padding: 1rem;
+    font-size: 20px;
     margin:0;
     font-weight: 400;
 }
@@ -536,44 +557,52 @@ h3, h4 {
     font-family: "PublicSans";
     color: #28262C;
     font-weight: 500;
-    font-size: 35px;
-    line-height: 120%;
-    padding: 1rem;
+    font-size: 25px;
+    line-height: 250%;
     margin: 0;
     margin-top: 1rem;
     text-decoration: underline;
 }
 
+.my-projects-currentprojectpicture{
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    border: 2px solid #4D7EA8;
+    border-radius: 40px;
+    filter: blur(4px);
+}
 .haveyaheardmockup-img {
     display: block;
     margin: auto;
     margin-bottom: 2rem;
-    border: 3.5px solid #4D7EA8;
-    border-radius: 50px;
-    margin-top: 2rem;
+    border: 2px solid #4D7EA8;
+    border-radius: 40px;
+    margin-top: 0.5rem;
 }
 .haveyaheard-content{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .haveyaheard h1{
     text-align: left;
     font-family: "PublicSans";
     color: #4D7EA8;
-    font-size: 50px;
+    font-size: 30px;
     margin: 0;
-    line-height: 120%;
-    font-weight: 600;
+    line-height: 110%;
+    font-weight: 700;
 }
 
 .haveyaheard h3{
     text-align: left;
     font-family: "Inter";
     color: #28262C;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 200%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
 }
+
 
 .haveyaheard h2{
     text-align: left;
@@ -589,7 +618,7 @@ h3, h4 {
     color: #28262C;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 120%;
+    font-size: 18px;
+    line-height: 150%;
 }
 
