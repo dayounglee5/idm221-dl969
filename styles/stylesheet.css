@@ -426,20 +426,16 @@ h3, h4 {
 
 .TargetAudiencePicture{
     display: block;
-    width: 350px;
-    height: auto;
-    margin-left: -0.4rem;
-    margin-top: 0.5rem;
+    margin: auto;
     margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 
 .GoodreadsLowFi1, .GoodreadsLowFi2 {
-    width: 350px;
-    height: auto;
     display: block;
-    margin-left: -0.4rem;
-    margin-top: 0.5rem;
+    margin: auto;
     margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 
 .about-me h1{
@@ -504,16 +500,16 @@ h3, h4 {
 .currentprojectpicture {
     display: block;
     margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border: 2px solid #4D7EA8;
     border-radius: 40px;
-    filter: blur(4px);
+    margin-top: 0.5rem;
 }
 
 .goodreadsmockup-img {
     display: block;
-    margin-bottom:1rem;
+    margin: auto;
+    margin-bottom: 1rem;
     border: 2px solid #4D7EA8;
     border-radius: 40px;
     margin-top: 0.5rem;
@@ -521,6 +517,7 @@ h3, h4 {
 
 .moodifymockup-img {
     display: block;
+    margin: auto;
     margin-bottom: 1rem;
     border: 2px solid #4D7EA8;
     border-radius: 40px;
@@ -563,11 +560,11 @@ h3, h4 {
 
 .my-projects-currentprojectpicture{
     display: block;
+    margin: auto;
     margin-bottom: 1rem;
-    margin-top: 0.5rem;
     border: 2px solid #4D7EA8;
     border-radius: 40px;
-    filter: blur(4px);
+    margin-top: 0.5rem;
 }
 .haveyaheardmockup-img {
     display: block;
