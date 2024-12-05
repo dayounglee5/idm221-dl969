@@ -123,7 +123,7 @@ nav ul li a {
 a{
     font-family: "Inter";
     color: #4D7EA8;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 120%;
 }
 
@@ -173,10 +173,6 @@ a{
     font-family: "Inter";
 }
 
-:link{
-    color: #28262C;
-    font-family: "Inter";
-}
 
 b {
     font-weight: 500;
@@ -289,7 +285,7 @@ h3, h4 {
     color: #28262C;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 120%;
 }
 .resume-content .dates{
@@ -297,7 +293,7 @@ h3, h4 {
     color: #28262C;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 120%;
     font-style: italic;
 }
@@ -324,7 +320,7 @@ h3, h4 {
     margin: 0;
 }
 .resume-content{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .resumepage h4{
@@ -357,6 +353,7 @@ h3, h4 {
 .moodify-content{
     padding: 1rem;
 }
+
 
 .moodify h1{
     font-family: "PublicSans";
@@ -622,3 +619,47 @@ h3, h4 {
     line-height: 150%;
 }
 
+.currentproject{
+    padding: 1rem;
+}
+.currentproject h1{
+    text-align: left;
+    font-family: "PublicSans";
+    color: #4D7EA8;
+    font-size: 30px;
+    margin: 0;
+    line-height: 110%;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.currentproject h3{
+    text-align: left;
+    font-family: "Inter";
+    color: #28262C;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.currentproject .researchquestion{
+    text-align: left;
+    font-family: "Inter";
+    color: #4D7EA8;
+    font-size: 21px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+    border: 1px solid #4D7EA8;
+    border-radius: 50px;
+    padding: 1.5rem;
+    display: inline-block;
+}
+.currentproject ul, .currentproject li, .currentproject p{
+    font-family: "Inter";
+    color: #28262C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
